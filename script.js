@@ -75,12 +75,7 @@ function setupEventListeners() {
         });
     });
 
-    // CTA Button
-    const ctaButton = document.querySelector('.cta-button');
-    ctaButton.addEventListener('click', function() {
-        // You can customize this action
-        alert('Thank you for your interest! Edmund Bogen will contact you soon to discuss your luxury real estate needs.');
-    });
+    // CTA Button - email link handles the action, no alert needed
 }
 
 // Update functions
